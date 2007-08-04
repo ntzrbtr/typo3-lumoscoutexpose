@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin 'tx_lumoscoutexpose_pi1'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="flexform.title">General settings</label>
+			<label index="flexform.scout_id">Scout ID of realty</label>
+			<label index="flexform.template_file">Template file</label>
+			<label index="data.yes">Yes</label>
+			<label index="data.no">No</label>
+			<label index="data.date_format">%Y-%m-%d</label>
+			<label index="data.sep_thousands">,</label>
+			<label index="data.sep_decimals">.</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="flexform.title">Allgemein</label>
+			<label index="flexform.scout_id">Scout-ID der Immobilie</label>
+			<label index="flexform.template_file">Template-Datei</label>
+			<label index="data.yes">Ja</label>
+			<label index="data.no">Nein</label>
+			<label index="data.date_format">%d.%m.%Y</label>
+			<label index="data.sep_thousands">.</label>
+			<label index="data.sep_decimals">,</label>
+		</languageKey>
+	</data>
+</T3locallang>

@@ -1,0 +1,23 @@
+plugin.tx_lumoscoutexpose_pi1 {
+   # API key
+   api_key = {$plugin.tx_lumoscoutexpose_pi1.api_key}
+   # Vendor ID
+   vendor_id = {$plugin.tx_lumoscoutexpose_pi1.vendor_id}
+   # Template files
+   template {
+      all = {$plugin.tx_lumoscoutexpose_pi1.template.all}
+      appartmentbuy = {$plugin.tx_lumoscoutexpose_pi1.template.appartmentbuy}
+      appartmentrent = {$plugin.tx_lumoscoutexpose_pi1.template.appartmentrent}
+      gastronomy = {$plugin.tx_lumoscoutexpose_pi1.template.gastronomy}
+      housebuy = {$plugin.tx_lumoscoutexpose_pi1.template.housebuy}
+      houserent = {$plugin.tx_lumoscoutexpose_pi1.template.houserent}
+      housetype = {$plugin.tx_lumoscoutexpose_pi1.template.housetype}
+      industry = {$plugin.tx_lumoscoutexpose_pi1.template.industry}
+      investment = {$plugin.tx_lumoscoutexpose_pi1.template.investment}
+      misc = {$plugin.tx_lumoscoutexpose_pi1.template.misc}
+      office = {$plugin.tx_lumoscoutexpose_pi1.template.office}
+      site = {$plugin.tx_lumoscoutexpose_pi1.template.site}
+      store = {$plugin.tx_lumoscoutexpose_pi1.template.store}
+      waz = {$plugin.tx_lumoscoutexpose_pi1.template.waz}
+   }
+}

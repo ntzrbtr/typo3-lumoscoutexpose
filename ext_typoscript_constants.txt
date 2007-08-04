@@ -1,0 +1,49 @@
+plugin.tx_lumoscoutexpose_pi1 {
+   # cat=plugin.tx_lumoscoutexpose_pi1/other/; type=string; label = API key : The developer API key used; to get a key, register at http://api.immobilienscout24.de/de/api_center/
+   api_key =
+
+   # cat=plugin.tx_lumoscoutexpose_pi1/other/; type=string; label = Vendor ID : Scout-ID of the vendor (e.g. agent) from ImmobilienScout24.de
+   vendor_id =
+
+   # cat=plugin.tx_lumoscoutexpose_pi1/file/; type=string; label = Template (all): General template for all types of exposés; overwrites other templates (except FlexForm)
+   template.all =
+
+   # cat=plugin.tx_lumoscoutexpose_pi1/file/; type=string; label = Template (appartmentbuy)
+   template.appartmentbuy = EXT:lumoscoutexpose/templates/template_appartmentbuy.html
+
+   # cat=plugin.tx_lumoscoutexpose_pi1/file/; type=string; label = Template (appartmentrent)
+   template.appartmentrent = EXT:lumoscoutexpose/templates/template_appartmentrent.html
+
+   # cat=plugin.tx_lumoscoutexpose_pi1/file/; type=string; label = Template (gastronomy)
+   template.gastronomy = EXT:lumoscoutexpose/templates/template_gastronomy.html
+
+   # cat=plugin.tx_lumoscoutexpose_pi1/file/; type=string; label = Template (housebuy)
+   template.housebuy = EXT:lumoscoutexpose/templates/template_housebuy.html
+
+   # cat=plugin.tx_lumoscoutexpose_pi1/file/; type=string; label = Template (houserent)
+   template.houserent = EXT:lumoscoutexpose/templates/template_houserent.html
+
+   # cat=plugin.tx_lumoscoutexpose_pi1/file/; type=string; label = Template (housetype)
+   template.housetype = EXT:lumoscoutexpose/templates/template_housetype.html
+
+   # cat=plugin.tx_lumoscoutexpose_pi1/file/; type=string; label = Template (industry)
+   template.industry = EXT:lumoscoutexpose/templates/template_industry.html
+
+   # cat=plugin.tx_lumoscoutexpose_pi1/file/; type=string; label = Template (investment)
+   template.investment = EXT:lumoscoutexpose/templates/template_investment.html
+
+   # cat=plugin.tx_lumoscoutexpose_pi1/file/; type=string; label = Template (misc)
+   template.misc = EXT:lumoscoutexpose/templates/template_misc.html
+
+   # cat=plugin.tx_lumoscoutexpose_pi1/file/; type=string; label = Template (office)
+   template.office = EXT:lumoscoutexpose/templates/template_office.html
+
+   # cat=plugin.tx_lumoscoutexpose_pi1/file/; type=string; label = Template (site)
+   template.site = EXT:lumoscoutexpose/templates/template_site.html
+
+   # cat=plugin.tx_lumoscoutexpose_pi1/file/; type=string; label = Template (store)
+   template.store = EXT:lumoscoutexpose/templates/template_store.html
+
+   # cat=plugin.tx_lumoscoutexpose_pi1/file/; type=string; label = Template (waz)
+   template.waz = EXT:lumoscoutexpose/templates/template_waz.html
+}

@@ -2,7 +2,7 @@
 /***************************************************************
 *  Copyright notice
 *
-*  (c) 2006 Thomas Off, LumoNet oHG <t.off@lumonet.de>
+*  (c) 2006 Thomas Off <typo3@retiolum.de>
 *  All rights reserved
 *
 *  This script is part of the TYPO3 project. The TYPO3 project is
@@ -39,7 +39,7 @@ require_once(t3lib_extMgm::extPath('lumoscoutexpose') . 'parsers/class.tx_lumosc
 /**
  * Common parser class for XML ExposeResult(s) that is used by the plugin.
  *
- * @author	Thomas Off, LumoNet oHG <t.off@lumonet.de>
+ * @author	Thomas Off <typo3@retiolum.de>
  * @package	TYPO3
  * @subpackage	tx_lumoscoutexpose
  */

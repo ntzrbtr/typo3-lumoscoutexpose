@@ -2,7 +2,7 @@
 /***************************************************************
 *  Copyright notice
 *
-*  (c) 2006 Thomas Off, LumoNet oHG <t.off@lumonet.de>
+*  (c) 2006 Thomas Off <typo3@retiolum.de>
 *  All rights reserved
 *
 *  This script is part of the TYPO3 project. The TYPO3 project is
@@ -25,7 +25,7 @@
 /**
  * Class that adds the wizard icon.
  *
- * @author	Thomas Off, LumoNet oHG <t.off@lumonet.de>
+ * @author	Thomas Off <typo3@retiolum.de>
  * @package	TYPO3
  * @subpackage	tx_lumoscoutexpose
  */

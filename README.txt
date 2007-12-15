@@ -2,7 +2,7 @@ LumoNet ImmobilienScout24.de Expose
 
 Extension Key: lumoscoutexpose
 
-Copyright 2007 Thomas Off <typo3@retiolum.de>
+Copyright 2006-2008 Thomas Off <typo3@retiolum.de>
 
 This extension uses the XML-based API from ImmobilienScout24.de to display a
 realty's exposé in the frontend.

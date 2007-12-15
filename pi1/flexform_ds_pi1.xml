@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <T3DataStructure>
-	<sheets>
-		<!-- Sheet General: General settings for the plugin -->
-		<sGeneral>
-			<ROOT>
-				<TCEforms>
-					<sheetTitle>LLL:EXT:lumoscoutexpose/pi1/locallang.xml:flexform.title</sheetTitle>
-				</TCEforms>
-				<type>array</type>
-				<el>
-					<!-- Scout ID of realty -->
-					<scout_id>
-						<TCEforms>
-							<label>LLL:EXT:lumoscoutexpose/pi1/locallang.xml:flexform.scout_id</label>
-							<config>
-								<type>input</type>
-								<size>10</size>
-								<eval>trim</eval>
-							</config>
-						</TCEforms>
-					</scout_id>
-					<!-- Template file -->
-					<template_file>
-						<TCEforms>
-							<label>LLL:EXT:lumoscoutexpose/pi1/locallang.xml:flexform.template_file</label>
-							<config>
-								<type>group</type>
-								<internal_type>file</internal_type>
-								<allowed>tmpl,html</allowed>
-								<max_size>500</max_size>
-								<uploadfolder>uploads/tx_lumoscoutexpose/</uploadfolder>
-								<maxitems>1</maxitems>
-								<size>1</size>
-								<selectedListStyle>width:180px</selectedListStyle>
-							</config>
-						</TCEforms>
-					</template_file>
-				</el>
-			</ROOT>
-		</sGeneral>
-		<!-- Sheet General: End -->
-	</sheets>
+    <sheets>
+        <!-- Sheet General: General settings for the plugin -->
+        <sGeneral>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:lumoscoutexpose/pi1/locallang.xml:flexform.title</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <!-- Scout ID of realty -->
+                    <scout_id>
+                        <TCEforms>
+                            <label>LLL:EXT:lumoscoutexpose/pi1/locallang.xml:flexform.scout_id</label>
+                            <config>
+                                <type>input</type>
+                                <size>10</size>
+                                <eval>trim</eval>
+                            </config>
+                        </TCEforms>
+                    </scout_id>
+                    <!-- Template file -->
+                    <template_file>
+                        <TCEforms>
+                            <label>LLL:EXT:lumoscoutexpose/pi1/locallang.xml:flexform.template_file</label>
+                            <config>
+                                <type>group</type>
+                                <internal_type>file</internal_type>
+                                <allowed>tmpl,html</allowed>
+                                <max_size>500</max_size>
+                                <uploadfolder>uploads/tx_lumoscoutexpose/</uploadfolder>
+                                <maxitems>1</maxitems>
+                                <size>1</size>
+                                <selectedListStyle>width:180px</selectedListStyle>
+                            </config>
+                        </TCEforms>
+                    </template_file>
+                </el>
+            </ROOT>
+        </sGeneral>
+        <!-- Sheet General: End -->
+    </sheets>
 </T3DataStructure>

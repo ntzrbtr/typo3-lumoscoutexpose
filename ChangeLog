@@ -1,17 +1,17 @@
 (add new changes on top of this file)
 
-06-12-15 Thomas Off, LumoNet oHG  <t.off@lumonet.de>
+06-12-15 Thomas Off, LumoNet oHG <t.off@lumonet.de>
 
 	* Fixed error (no upload folder generated)
 	* Added manual
 	* Added PHP-DOC comments and XCLASS statemens to parser classes
 
 
-06-12-13 Thomas Off, LumoNet oHG  <t.off@lumonet.de>
+06-12-13 Thomas Off, LumoNet oHG <t.off@lumonet.de>
 
 	* Implemented missing handling of base type GISRealEstate
 
 
-06-12-12 Thomas Off, LumoNet oHG  <t.off@lumonet.de>
+06-12-12 Thomas Off, LumoNet oHG <t.off@lumonet.de>
 
 	* Initial release
